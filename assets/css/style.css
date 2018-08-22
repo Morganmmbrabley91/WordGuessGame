@@ -49,15 +49,15 @@
       /* guess */
       /* guess-ghost */
       /* guessed */ }
-      #wrap #items #briefcase {
+      #wrap #items #guitar {
         position: relative;
         z-index: 100; }
-      #wrap #items #gun {
+      #wrap #items #travis {
         position: absolute;
         top: -100px;
         left: -325px;
         z-index: 5; }
-      #wrap #items #badge {
+      #wrap #items #anachy {
         position: absolute;
         right: -120px;
         bottom: 300px;
@@ -84,7 +84,7 @@
         animation: pulse 1.5s infinite; }
       #wrap #items #turns-ghost {
         z-index: 400;
-        color: blue; }
+        color: whitesmoke; }
       #wrap #items #error {
         position: absolute;
         left: 342px;
@@ -116,7 +116,7 @@
             opacity: 0.9; }
       #wrap #items #guess-ghost {
         z-index: 900;
-        color: #373d30;
+        color: purple;
         opacity: 0.6; }
         #wrap #items #guess-ghost table#word-ghost td {
           text-shadow: none; }
