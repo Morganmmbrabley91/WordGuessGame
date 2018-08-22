@@ -11,11 +11,11 @@ function init() {
     modal = document.getElementById("modal");
     // Possible words — no longer than 12 letters!
     masterWordBank = [
-      "guitar",
-      "drums",
-      "anachy",
-      "mohawk",
-      "moshpit",
+      "theoffspring",
+      "deadkennedys",
+      "falloutboy",
+      "badreligion",
+      "ramones",
       "mxpx",
       "rancid",
       "billytalent",
