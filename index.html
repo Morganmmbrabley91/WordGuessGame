@@ -1,108 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hangman punk bands!</title>
-
-  <!-- Bootstrap -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
+  <title>Are You Phychic</title>
 </head>
+
 <body>
 
-<div id="wrap">
+  <h1>The Mystery Letter Game</h1>
 
-  <div id="modal">
-    <div id="state" class="container text-centered">
-      <img src="./assets/images/punkbanner.jpg" alt="hangman punk">
-      <div class="instructions">
-        <p>Guess the word and keep with the Anarchy.</p>
-        <p>Hit <strong>spacebar</strong> to start.</p>
-      </div>
-    </div>
-  </div>
+  <p>Do you know what letter it is???</p>
 
-  <div id="win" class="hide">
-    <div class="message">
-      <div id="rancid"><img src="./assets/images/rancid.jpg" alt="rancid"></div>
-      <div class="text">
-        <p>Nice! You guessed <span id="wordSolved">"LONGWORD"</span> with <span id="turnsLeft">0</span> turns to spare.</p>
-        <p>Hit <strong>spacebar</strong> to keep playing.</p>
-      </div>
-    </div>
-  </div> <!-- scrim -->
+  <p>Wins: <span id="wins">0</span></p>
 
-  <div id="lose" class="hide">
-    <div class="message">
-      <div class="text">
-        <p>You blew it.</p>
-        <div><img src="./assets/images/punk.gif" alt="rocking out"></div>
-        <p>Hit <strong>spacebar</strong> to try again.</p>
-      </div>
-    </div>
-  </div> <!-- scrim -->
+  <p>Losses: <span id="losses">0</span></p>
 
-    <div id="travis">
-      <img src="./assets/images/travisb.jpg" alt="travis">
-    </div>
+  <p>Guesses Left: <span id="guesses-left"></span></p>
 
-    <div id="items">
-        <div id="guitar">
-          <img src="./assets/images/guitar.jpg" alt="guitar">
-        </div>
+  <p>Your Guesses so far: <span id="guesses-so-far"></span></p>
 
-    <div id="anarchy">
-      <img src="./assets/images/anarchy.jpg" alt="anachy">
-    </div>
-
-    <div id="turns-ghost">00:00</div>
-    <div id="turns"></div>
-
-    <div id="guess">
-      <table id="word" class="table-bordered text-primary">
-        <tr id="blanks">
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </div>
-
-    <div id="error" class="hide"></div>
-
-    <div id="guess-ghost">
-      <table id="word-ghost" class="table-bordered text-primary">
-        <tr>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-          <td>_</td>
-        </tr>
-      </table>
-    </div>
-
-    <div id="guessed"></div>
-    <div id="wins"></div>
-
-  </div> <!-- items -->
-
-
-
-</div> <!-- wrap -->
-
-<!-- JS -->
-<script src="./assets/javascript/game.js" charset="utf-8"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
+
 </html>
